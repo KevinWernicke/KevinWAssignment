@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Avantasia</title>
+	<link rel="stylesheet" href="styles/normalize.css">
+	<link rel="stylesheet" href="styles/gallery.css">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+</head>
+<body>
+
+<!-- ******************Header**************************** -->
+
+	<div id="container">
+		<header>
+			<div id="logo"></div>
+		</header>
+	</div>
+
+<!-- ******************Nav**************************** -->
+
+	<div id="container">
+		<nav>
+			<a href="file:///C:/Users/Kevin/Documents/SEMESTER%202/Web%20Programming%202/Assignment%204/index.html">Home</a>
+			<a href="file:///C:/Users/Kevin/Documents/SEMESTER%202/Web%20Programming%202/Assignment%204/gallery.html">Gallery</a>
+			<a href="file:///C:/Users/Kevin/Documents/SEMESTER%202/Web%20Programming%202/Assignment%204/about.html">About</a>
+		</nav>	
+		<div id="underlineImg"></div>
+	</div>
+
+<!-- ******************Main Content**************************** -->
+	
+	<div id="container" class="bodyContainer">
+			<img id="mainImage" class="bigImage" src="images/MysteryOfTimeBig.jpg">
+	
+		<div id="galleryImages">
+			<ul>
+				<li><img id="thumb1" src="images/MysteryOfTimeSmall.jpg" onclick="changeMain('images/MysteryOfTimeBig.jpg')"></li>
+
+		 		<li><img id="thumb2" src="images/WickedSymphonySmall.jpg" onclick="changeMain('images/WickedSymphonyBig.jpg')"></li>
+
+		 		<li><img id="thumb3" src="images/AngelBabylonSmall.jpg" onclick="changeMain('images/AngelBabylonBig.jpg')"></li>
+
+		 		<li><img id="thumb4" src="images/ScarecrowSmall.jpg" onclick="changeMain('images/ScarecrowBig.jpg')"></li>
+
+		 		<li><img id="thumb5" src="images/LostInSpaceP2Small.jpg" onclick="changeMain('images/LostInSpaceP2Big.jpg')"></li>
+
+		 		<li><img id="thumb6" src="images/LostInSpaceP1Small.jpg" onclick="changeMain('images/LostInSpaceP1Big.jpg')"></li>
+
+		 		<li><img id="thumb7" src="images/MetalOperaP2Small.jpg" onclick="changeMain('images/MetalOperaP2Big.jpg')"></li>
+
+		 		<li><img id="thumb8" src="images/MetalOperaP1Small.jpg" onclick="changeMain('images/MetalOperaP1Big.jpg')"></li>
+
+		 		<li><img id="thumb9" src="images/AvantasiaAlbumSmall.jpg" onclick="changeMain('images/AvantasiaAlbumBig.jpg')"></li>
+			</ul>
+		</div>
+	</div>
+	
+	
+<!-- ******************Footer**************************** -->
+	<footer>
+		<div id="container">
+			<section class="leftSide">
+				<h1>Social Media</h1>
+				<ul>
+					<li id="facebook"><a href="https://www.facebook.com/avantasia" target="_blank" ></a></li>
+					<li id="twitter"><a href="https://twitter.com/_avantasia" target="_blank" ></a></li>
+					<li id="youtube"><a href="https://www.youtube.com/user/avantasiaofficial" target="_blank" ></a></li>
+					<li id="google"><a href="https://plus.google.com/u/0/104601468702242144680/posts" target="_blank" ></a></li>
+				</ul>
+			</section>
+
+			<section class="middle">
+				<div id="middleInfo">
+				<div id="footerNewsInfo">
+					<h1>News</h1>
+					
+						<h4>Date: jan 16, 2015</h4>
+						<h2>Tobias working on a new cd with EdGuy</h2>
+						<hr>
+				
+						<h4>Date: jan 16, 2015</h4>
+						<h2>Tobias working on a new cd with EdGuy</h2>
+						<hr>
+					
+						<h4>Date: jan 16, 2015</h4>
+						<h2>Tobias working on a new cd with EdGuy</h2>
+				</div>	
+
+				<div id="tourInfo">
+					<h1>Tour</h1>
+					<h2>July 28</h2>
+					<h4>Wacken Open Air, Germany</h4>
+				</div>	
+			</section>
+
+			<section class="rightSide">
+				<p>© Copyright 2014 Avantasia.com
+				<a href="">Terms of use</a> | All Rights Reserved</p>
+			</section>
+		</div>
+	</footer>
+	<script type="text/javascript" src="scripts/gallery.js"></script>
+</body>
+</html>

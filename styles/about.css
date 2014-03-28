@@ -1,0 +1,421 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#container {
+	max-width: 1080px;
+	margin: 0 auto;
+}
+
+body {
+	background: url('../images/background1.jpg') no-repeat;
+	background-size: 100%;
+	background-color: black;
+}
+
+h1 {
+	font-size: 30px;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+h3 {
+	font-size: 22px;
+}
+
+h4 {
+	font-size: 13px;
+}
+
+p {
+	font-size: 15px;
+	line-height: 18px;
+}
+
+hr {
+	width: 80%;
+}
+
+/*--------Header-------------*/
+
+header {
+	height: 300px;
+	width: 100%;
+	margin: 0 auto;
+	background: url('../images/background.jpg') no-repeat;
+	background-size: cover;
+}
+
+#logo {
+	height: 300px;
+	width: 100%;
+	background: url('../images/logo.png') no-repeat center;
+	
+}
+
+/*--------Nav-------------*/
+
+#containerNav {
+	max-width: 1080px;
+	margin: 0 auto;
+}
+
+nav {
+	width: 100%;
+	margin: 0 auto;
+	padding-top:20px;
+	text-align: center;
+}
+
+nav a {
+	text-decoration: none;
+	color: black;
+	font-size: 30px;
+	margin: 5px 12.5%;
+}
+
+#underlineImg {
+	height: 100px;
+	background: url("../images/underline1.png") no-repeat;
+	background-size: 100%;
+}
+
+/*--------Main Body-------------*/
+
+#mainContent {
+	width: auto;
+	min-height: 600px;
+	padding: 20px 20px;
+	background: url('../images/backgroundcut.jpg') no-repeat;
+	background-size: cover;
+	float: left;
+	color: white;
+}
+
+#selfPic {
+	height: 300px;
+	width: 400px;
+	background: url('../images/Tobia1.jpg') no-repeat;
+	float: left;
+}
+
+/*--------Left Side-------------*/
+
+.leftSide {
+	width: 25%;
+	min-height: 200px;
+	margin: 0 auto;
+	float: left;
+	padding: 15px 20px;
+}
+
+/*--------Middle-------------*/
+
+.middle {
+	width: 50%;
+	min-height: 200px;
+	margin: 0 auto;
+	float: left;
+	padding: 15px 20px;
+}
+
+.middle a {
+	float: right;
+	text-decoration: none;
+}
+
+/*--------Right Side-------------*/
+
+.rightSide {
+	width: 25%;
+	min-height: 200px;
+	margin: 0 auto;
+	float: left;
+}
+
+/*--------Footer-------------*/
+
+footer {
+	width: 100%;
+	margin: 0 auto;
+	color: white;
+	padding-top: 900px;
+}
+
+#footerNewsInfo {
+	float: left;
+	width: 50%;
+	padding-bottom: 30px;
+}
+
+.middle #footerNewsInfo h2 {
+	font-size: 18px;
+}
+
+#tourInfo {
+	width: 45%;
+	float: left;
+	margin-left: 20px;
+}
+
+footer .rightSide p {
+	margin-top: 235px;
+}
+
+footer ul {
+	list-style-type: none;
+}
+
+#facebook a {
+	float: left;
+	width: 40px;
+	height: 40px;
+	background: url('../images/facebook.png') no-repeat;
+}
+
+#twitter a {
+	float: left;
+	width: 40px;
+	height: 40px;
+	background: url('../images/twitter.png') no-repeat;
+}
+
+#youtube a {
+	float: left;
+	width: 40px;
+	height: 40px;
+	background: url('../images/youtube.png') no-repeat;
+}
+
+#google a {
+	float: left;
+	width: 40px;
+	height: 40px;
+	background: url('../images/googleplus.png') no-repeat;
+}
+
+@media only screen and (min-width: 480px) and (max-width: 900px) {
+
+body {
+	background:black;
+}
+
+h1 {
+	font-size: 25px;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+h3 {
+	font-size: 18px;
+}
+
+h4 {
+	font-size: 11px;
+}
+
+p {
+	font-size: 13px;
+	line-height: 18px;
+}
+
+/*-----------------NAV--------------------*/
+
+nav {
+	width: 100%;
+	padding-top:10px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+nav a {
+	color: white;
+	font-size: 25px;
+	margin: 0px 13%;
+	width: 100%;
+}
+
+#underlineImg {
+	height: 70px;
+}
+
+/*--------Main Body-------------*/
+
+#mainContent {
+	float: none;
+}
+
+#selfPic {
+	background: url('../images/Tobia1.jpg') no-repeat center;
+	float: left;
+
+}
+
+/*--------Left Side-------------*/
+
+.leftSide {
+	min-width: 30%;
+	min-height: 200px;
+	margin: 0 auto;
+	float: left;
+	padding: 15px 20px;
+}
+
+/*--------Middle-------------*/
+
+.middle {
+	width: 60%;
+}
+
+/*--------Right Side-------------*/
+
+#mainContent .rightSide {
+	display: none;
+}
+
+.rightSide {
+	width: 100%;
+	min-height: 100px;
+	margin: 0 auto;
+	clear: both;
+	float: none;
+	text-align: center;
+}
+
+/*--------Footer-------------*/
+
+footer {
+	padding-top: 20px;
+}
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+
+body {
+	background:black;
+}
+
+h1 {
+	font-size: 22px;
+}
+
+h2 {
+	font-size: 16px;
+}
+
+h3 {
+	font-size: 14px;
+}
+
+h4 {
+	font-size: 10px;
+}
+
+p {
+	font-size: 12px;
+	line-height: 18px;
+}
+
+/*--------Header-------------*/
+
+header {
+	height: 200px;
+	width: 100%;
+	margin: 0 auto;
+	background: url('../images/background.jpg') no-repeat;
+	background-size: cover;
+}
+
+#logo {
+	height: 200px;
+	background-size: 100%;
+}
+
+/*-----------------NAV--------------------*/
+
+nav {
+	width: 100%;
+	padding-top:10px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+nav a {
+	color: white;
+	font-size: 25px;
+	margin: 0px 2%;
+	width: 100%;
+}
+
+#underlineImg {
+	display: none;
+}
+
+/*--------Main Body-------------*/
+
+#mainContent {
+	float: none;
+}
+
+/*--------Left Side-------------*/
+
+.leftSide {
+	min-width: 100%;
+	min-height: 200px;
+	margin: 0 auto;
+	float: left;
+	padding: 15px 0px;
+}
+
+/*--------Middle-------------*/
+
+.middle {
+	width: 100%;
+}
+
+/*--------Right Side-------------*/
+
+.rightSide {
+	float: none;
+}
+
+/*--------Footer-------------*/
+
+footer {
+	float: none;
+	padding-top: 0px;
+}
+
+footer .rightSide p {
+	margin-top: 5px;
+}
+
+footer .leftSide {
+	text-align: center;
+	min-height: 80px; 
+	width: 100%; 
+	padding-bottom: 10px;
+}
+
+footer .leftSide ul {
+	margin: 0px 30%;
+}
+
+footer .middle {
+	display: none;
+}
+
+footer .rightSide  {
+	width: 100%;
+	margin: 0px 0px;
+	text-align: center;
+}
+
+}
